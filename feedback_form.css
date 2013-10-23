@@ -1,0 +1,129 @@
+@import url('http://fonts.googleapis.com/css?family=Nixie+One');
+
+body { 
+    background-color: #d7e2e7;
+    font: 16px/1 "Open Sans", LittleBird;
+}
+h1 { padding-top: 100px;
+     padding-left: 600px;
+}
+
+i {
+  font: normal 44px/ 44px 'Nixie One', Helvetica, Arial;
+	color: #EEDDE0;
+	text-shadow: 0 0 10px #455C9F, 
+		0 0 10px rgba(161, 169, 230, 0.41), 
+		0 0 20px #73829E, 
+		0 0 20px #6784F3, 
+		5px 9px 5px rgba(0, 0, 0, 0.5);
+}
+
+i.off {
+	color: rgba(46, 46, 46, 0.61);
+	text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+#email {
+  margin: 0 120px 0 112px;
+  padding: 100px 15px 15px 15px;
+  border-top: 1px solid #fff;
+  word-wrap: break-word;
+  border-radius: 20px;
+  position: relative;
+  min-height: 12px;
+  color: white; 
+  background-color: #4c5057;
+  background-image: -moz-linear-gradient(hsla(0, 0%, 100%, .6), hsla(0, 0%, 100%, 0) 30px );
+  background-image: -webkit-gradient(linear, 0 0, 0 30, from(hsla(0,0%,100%,.6)), to(hsla(0,0%,100%,0)));
+  -moz-box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  -webkit-box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  &:after {
+   content: "\00A0";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 10px 20px 10px 0;
+    border-style: solid;
+    border-color: transparent hsla(182,44%,75%,.5) transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 20px;  
+  }
+   &:hover {
+      top: -2px;
+      left: -2px;
+      -moz-box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      -webkit-box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      -moz-text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+      -webkit-text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+      text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+    }
+}
+#blockquote {
+  margin: 0 140px 0 112px;
+  padding: 120px 15px 15px 15px;
+  border-top: 1px solid #fff;
+  word-wrap: break-word;
+  border-radius: 20px;
+  position: relative;
+  min-height: 42px;
+  color: white;
+  background-color: #4c5057;
+  background-image: -moz-linear-gradient(hsla(0, 0%, 100%, .6), hsla(0, 0%, 100%, 0) 30px );
+  background-image: -webkit-gradient(linear, 0 0, 0 30, from(hsla(0,0%,100%,.6)), to(hsla(0,0%,100%,0)));
+  -moz-box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  -webkit-box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  box-shadow: 1px 1px 2px hsla(0,0%,0%,.3);
+  &:after {
+   content: "\00A0";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 10px 20px 10px 0;
+    border-style: solid;
+    border-color: transparent hsla(182,44%,75%,.5) transparent transparent;
+    position: absolute;
+    left: -20px;
+    top: 20px;  
+  }
+   &:hover {
+      top: -2px;
+      left: -2px;
+      -moz-box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      -webkit-box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      box-shadow: 3px 3px 2px hsla(0,0%,0%,.3);
+      -moz-text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+      -webkit-text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+      text-shadow: 1px 1px 1px hsla(0,0%,100%,.7);
+    }
+}
+
+#submit {
+    width: 100px;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #546d7a;
+    opacity: 0.6;
+    font-family: fontawesome, sans serif;
+    font-size: 20px;
+    text-shadow: none;
+    padding: 11px;
+    margin-left: 100px;
+}
+#submit:hover {
+    color: #f90;
+    background: #f5f6f6; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=0 ); /* IE6-9 */
+    /*Background gradient is: Grey Pipe*/
+}
+
+
